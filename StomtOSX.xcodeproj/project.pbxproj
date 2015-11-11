@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A74850731BF3C8BF00D66806 /* StomtOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74850681BF3C8BF00D66806 /* StomtOSX.framework */; };
+		A74850781BF3C8BF00D66806 /* StomtOSXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A74850771BF3C8BF00D66806 /* StomtOSXTests.m */; };
+		A74850871BF3C8E400D66806 /* HTTPResponseChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850831BF3C8E400D66806 /* HTTPResponseChecker.h */; };
+		A74850881BF3C8E400D66806 /* HTTPResponseChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = A74850841BF3C8E400D66806 /* HTTPResponseChecker.m */; };
+		A74850891BF3C8E400D66806 /* NSDate+ISO8601.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850851BF3C8E400D66806 /* NSDate+ISO8601.h */; };
+		A748508A1BF3C8E400D66806 /* NSDate+ISO8601.m in Sources */ = {isa = PBXBuildFile; fileRef = A74850861BF3C8E400D66806 /* NSDate+ISO8601.m */; };
+		A74850971BF3C91C00D66806 /* STStats.h in Headers */ = {isa = PBXBuildFile; fileRef = A748508D1BF3C91C00D66806 /* STStats.h */; };
+		A74850981BF3C91C00D66806 /* STStats.m in Sources */ = {isa = PBXBuildFile; fileRef = A748508E1BF3C91C00D66806 /* STStats.m */; };
+		A74850991BF3C91C00D66806 /* STCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = A748508F1BF3C91C00D66806 /* STCategory.h */; };
+		A748509A1BF3C91C00D66806 /* STCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A74850901BF3C91C00D66806 /* STCategory.m */; };
+		A748509B1BF3C91C00D66806 /* STImage.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850911BF3C91C00D66806 /* STImage.h */; };
+		A748509C1BF3C91C00D66806 /* STImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A74850921BF3C91C00D66806 /* STImage.m */; };
+		A748509D1BF3C91C00D66806 /* STSearchFilterKeywords.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850931BF3C91C00D66806 /* STSearchFilterKeywords.h */; };
+		A748509E1BF3C91C00D66806 /* STSearchFilterKeywords.m in Sources */ = {isa = PBXBuildFile; fileRef = A74850941BF3C91C00D66806 /* STSearchFilterKeywords.m */; };
+		A748509F1BF3C91C00D66806 /* STImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850951BF3C91C00D66806 /* STImageView.h */; };
+		A74850A01BF3C91C00D66806 /* STImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A74850961BF3C91C00D66806 /* STImageView.m */; };
+		A74850A91BF3C92200D66806 /* STUser.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850A11BF3C92200D66806 /* STUser.h */; };
+		A74850AA1BF3C92200D66806 /* STUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A74850A21BF3C92200D66806 /* STUser.m */; };
+		A74850AB1BF3C92200D66806 /* STObject.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850A31BF3C92200D66806 /* STObject.h */; };
+		A74850AC1BF3C92200D66806 /* STObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A74850A41BF3C92200D66806 /* STObject.m */; };
+		A74850AD1BF3C92200D66806 /* STTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = A74850A51BF3C92200D66806 /* STTarget.m */; };
+		A74850AE1BF3C92200D66806 /* STTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850A61BF3C92200D66806 /* STTarget.h */; };
+		A74850AF1BF3C92200D66806 /* STFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850A71BF3C92200D66806 /* STFeed.h */; };
+		A74850B01BF3C92200D66806 /* STFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = A74850A81BF3C92200D66806 /* STFeed.m */; };
+		A74850B41BF3C93800D66806 /* StomtRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850B21BF3C93800D66806 /* StomtRequest.h */; };
+		A74850B51BF3C93800D66806 /* StomtRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A74850B31BF3C93800D66806 /* StomtRequest.m */; };
+		A74850BB1BF3C94700D66806 /* dbg.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850B71BF3C94700D66806 /* dbg.h */; };
+		A74850BC1BF3C94700D66806 /* declarations.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850B81BF3C94700D66806 /* declarations.h */; };
+		A74850BD1BF3C94700D66806 /* block_declarations.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850B91BF3C94700D66806 /* block_declarations.h */; };
+		A74850BE1BF3C94700D66806 /* strings.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850BA1BF3C94700D66806 /* strings.h */; };
+		A74850C21BF3C96600D66806 /* Stomt.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850C01BF3C96600D66806 /* Stomt.h */; };
+		A74850C31BF3C96600D66806 /* Stomt.m in Sources */ = {isa = PBXBuildFile; fileRef = A74850C11BF3C96600D66806 /* Stomt.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A74850741BF3C8BF00D66806 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A748505F1BF3C8BF00D66806 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A74850671BF3C8BF00D66806;
+			remoteInfo = StomtOSX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A74850681BF3C8BF00D66806 /* StomtOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StomtOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A748506D1BF3C8BF00D66806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A74850721BF3C8BF00D66806 /* StomtOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StomtOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A74850771BF3C8BF00D66806 /* StomtOSXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StomtOSXTests.m; sourceTree = "<group>"; };
+		A74850791BF3C8BF00D66806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A74850831BF3C8E400D66806 /* HTTPResponseChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPResponseChecker.h; sourceTree = "<group>"; };
+		A74850841BF3C8E400D66806 /* HTTPResponseChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPResponseChecker.m; sourceTree = "<group>"; };
+		A74850851BF3C8E400D66806 /* NSDate+ISO8601.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ISO8601.h"; sourceTree = "<group>"; };
+		A74850861BF3C8E400D66806 /* NSDate+ISO8601.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ISO8601.m"; sourceTree = "<group>"; };
+		A748508D1BF3C91C00D66806 /* STStats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STStats.h; sourceTree = "<group>"; };
+		A748508E1BF3C91C00D66806 /* STStats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STStats.m; sourceTree = "<group>"; };
+		A748508F1BF3C91C00D66806 /* STCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCategory.h; sourceTree = "<group>"; };
+		A74850901BF3C91C00D66806 /* STCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCategory.m; sourceTree = "<group>"; };
+		A74850911BF3C91C00D66806 /* STImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STImage.h; sourceTree = "<group>"; };
+		A74850921BF3C91C00D66806 /* STImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STImage.m; sourceTree = "<group>"; };
+		A74850931BF3C91C00D66806 /* STSearchFilterKeywords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSearchFilterKeywords.h; sourceTree = "<group>"; };
+		A74850941BF3C91C00D66806 /* STSearchFilterKeywords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSearchFilterKeywords.m; sourceTree = "<group>"; };
+		A74850951BF3C91C00D66806 /* STImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STImageView.h; sourceTree = "<group>"; };
+		A74850961BF3C91C00D66806 /* STImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STImageView.m; sourceTree = "<group>"; };
+		A74850A11BF3C92200D66806 /* STUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STUser.h; sourceTree = "<group>"; };
+		A74850A21BF3C92200D66806 /* STUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STUser.m; sourceTree = "<group>"; };
+		A74850A31BF3C92200D66806 /* STObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STObject.h; sourceTree = "<group>"; };
+		A74850A41BF3C92200D66806 /* STObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STObject.m; sourceTree = "<group>"; };
+		A74850A51BF3C92200D66806 /* STTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTarget.m; sourceTree = "<group>"; };
+		A74850A61BF3C92200D66806 /* STTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTarget.h; sourceTree = "<group>"; };
+		A74850A71BF3C92200D66806 /* STFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STFeed.h; sourceTree = "<group>"; };
+		A74850A81BF3C92200D66806 /* STFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STFeed.m; sourceTree = "<group>"; };
+		A74850B21BF3C93800D66806 /* StomtRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StomtRequest.h; sourceTree = "<group>"; };
+		A74850B31BF3C93800D66806 /* StomtRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StomtRequest.m; sourceTree = "<group>"; };
+		A74850B71BF3C94700D66806 /* dbg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dbg.h; sourceTree = "<group>"; };
+		A74850B81BF3C94700D66806 /* declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = declarations.h; sourceTree = "<group>"; };
+		A74850B91BF3C94700D66806 /* block_declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = block_declarations.h; sourceTree = "<group>"; };
+		A74850BA1BF3C94700D66806 /* strings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strings.h; sourceTree = "<group>"; };
+		A74850C01BF3C96600D66806 /* Stomt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stomt.h; sourceTree = "<group>"; };
+		A74850C11BF3C96600D66806 /* Stomt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stomt.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A74850641BF3C8BF00D66806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A748506F1BF3C8BF00D66806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74850731BF3C8BF00D66806 /* StomtOSX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A748505E1BF3C8BF00D66806 = {
+			isa = PBXGroup;
+			children = (
+				A748506A1BF3C8BF00D66806 /* StomtOSX */,
+				A74850761BF3C8BF00D66806 /* StomtOSXTests */,
+				A74850691BF3C8BF00D66806 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A74850691BF3C8BF00D66806 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A74850681BF3C8BF00D66806 /* StomtOSX.framework */,
+				A74850721BF3C8BF00D66806 /* StomtOSXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A748506A1BF3C8BF00D66806 /* StomtOSX */ = {
+			isa = PBXGroup;
+			children = (
+				A74850821BF3C8DB00D66806 /* Private */,
+				A748508B1BF3C90400D66806 /* Stomt Objects */,
+				A74850B61BF3C93D00D66806 /* Helpers */,
+				A74850B11BF3C92C00D66806 /* StomtRequest */,
+				A74850BF1BF3C95900D66806 /* Public */,
+				A748506D1BF3C8BF00D66806 /* Info.plist */,
+			);
+			path = StomtOSX;
+			sourceTree = "<group>";
+		};
+		A74850761BF3C8BF00D66806 /* StomtOSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				A74850771BF3C8BF00D66806 /* StomtOSXTests.m */,
+				A74850791BF3C8BF00D66806 /* Info.plist */,
+			);
+			path = StomtOSXTests;
+			sourceTree = "<group>";
+		};
+		A74850821BF3C8DB00D66806 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				A74850831BF3C8E400D66806 /* HTTPResponseChecker.h */,
+				A74850841BF3C8E400D66806 /* HTTPResponseChecker.m */,
+				A74850851BF3C8E400D66806 /* NSDate+ISO8601.h */,
+				A74850861BF3C8E400D66806 /* NSDate+ISO8601.m */,
+			);
+			name = Private;
+			sourceTree = "<group>";
+		};
+		A748508B1BF3C90400D66806 /* Stomt Objects */ = {
+			isa = PBXGroup;
+			children = (
+				A748508C1BF3C90900D66806 /* Helper Objects */,
+				A74850A11BF3C92200D66806 /* STUser.h */,
+				A74850A21BF3C92200D66806 /* STUser.m */,
+				A74850A31BF3C92200D66806 /* STObject.h */,
+				A74850A41BF3C92200D66806 /* STObject.m */,
+				A74850A51BF3C92200D66806 /* STTarget.m */,
+				A74850A61BF3C92200D66806 /* STTarget.h */,
+				A74850A71BF3C92200D66806 /* STFeed.h */,
+				A74850A81BF3C92200D66806 /* STFeed.m */,
+			);
+			name = "Stomt Objects";
+			sourceTree = "<group>";
+		};
+		A748508C1BF3C90900D66806 /* Helper Objects */ = {
+			isa = PBXGroup;
+			children = (
+				A748508D1BF3C91C00D66806 /* STStats.h */,
+				A748508E1BF3C91C00D66806 /* STStats.m */,
+				A748508F1BF3C91C00D66806 /* STCategory.h */,
+				A74850901BF3C91C00D66806 /* STCategory.m */,
+				A74850911BF3C91C00D66806 /* STImage.h */,
+				A74850921BF3C91C00D66806 /* STImage.m */,
+				A74850931BF3C91C00D66806 /* STSearchFilterKeywords.h */,
+				A74850941BF3C91C00D66806 /* STSearchFilterKeywords.m */,
+				A74850951BF3C91C00D66806 /* STImageView.h */,
+				A74850961BF3C91C00D66806 /* STImageView.m */,
+			);
+			name = "Helper Objects";
+			sourceTree = "<group>";
+		};
+		A74850B11BF3C92C00D66806 /* StomtRequest */ = {
+			isa = PBXGroup;
+			children = (
+				A74850B21BF3C93800D66806 /* StomtRequest.h */,
+				A74850B31BF3C93800D66806 /* StomtRequest.m */,
+			);
+			name = StomtRequest;
+			sourceTree = "<group>";
+		};
+		A74850B61BF3C93D00D66806 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A74850B71BF3C94700D66806 /* dbg.h */,
+				A74850B81BF3C94700D66806 /* declarations.h */,
+				A74850B91BF3C94700D66806 /* block_declarations.h */,
+				A74850BA1BF3C94700D66806 /* strings.h */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		A74850BF1BF3C95900D66806 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				A74850C01BF3C96600D66806 /* Stomt.h */,
+				A74850C11BF3C96600D66806 /* Stomt.m */,
+			);
+			name = Public;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A74850651BF3C8BF00D66806 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74850BB1BF3C94700D66806 /* dbg.h in Headers */,
+				A74850AE1BF3C92200D66806 /* STTarget.h in Headers */,
+				A74850A91BF3C92200D66806 /* STUser.h in Headers */,
+				A748509F1BF3C91C00D66806 /* STImageView.h in Headers */,
+				A74850AB1BF3C92200D66806 /* STObject.h in Headers */,
+				A748509D1BF3C91C00D66806 /* STSearchFilterKeywords.h in Headers */,
+				A74850C21BF3C96600D66806 /* Stomt.h in Headers */,
+				A74850AF1BF3C92200D66806 /* STFeed.h in Headers */,
+				A74850891BF3C8E400D66806 /* NSDate+ISO8601.h in Headers */,
+				A74850971BF3C91C00D66806 /* STStats.h in Headers */,
+				A74850BC1BF3C94700D66806 /* declarations.h in Headers */,
+				A74850B41BF3C93800D66806 /* StomtRequest.h in Headers */,
+				A74850BE1BF3C94700D66806 /* strings.h in Headers */,
+				A748509B1BF3C91C00D66806 /* STImage.h in Headers */,
+				A74850BD1BF3C94700D66806 /* block_declarations.h in Headers */,
+				A74850871BF3C8E400D66806 /* HTTPResponseChecker.h in Headers */,
+				A74850991BF3C91C00D66806 /* STCategory.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A74850671BF3C8BF00D66806 /* StomtOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A748507C1BF3C8BF00D66806 /* Build configuration list for PBXNativeTarget "StomtOSX" */;
+			buildPhases = (
+				A74850631BF3C8BF00D66806 /* Sources */,
+				A74850641BF3C8BF00D66806 /* Frameworks */,
+				A74850651BF3C8BF00D66806 /* Headers */,
+				A74850661BF3C8BF00D66806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StomtOSX;
+			productName = StomtOSX;
+			productReference = A74850681BF3C8BF00D66806 /* StomtOSX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A74850711BF3C8BF00D66806 /* StomtOSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A748507F1BF3C8BF00D66806 /* Build configuration list for PBXNativeTarget "StomtOSXTests" */;
+			buildPhases = (
+				A748506E1BF3C8BF00D66806 /* Sources */,
+				A748506F1BF3C8BF00D66806 /* Frameworks */,
+				A74850701BF3C8BF00D66806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A74850751BF3C8BF00D66806 /* PBXTargetDependency */,
+			);
+			name = StomtOSXTests;
+			productName = StomtOSXTests;
+			productReference = A74850721BF3C8BF00D66806 /* StomtOSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A748505F1BF3C8BF00D66806 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Leonardo Cascianelli";
+				TargetAttributes = {
+					A74850671BF3C8BF00D66806 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					A74850711BF3C8BF00D66806 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = A74850621BF3C8BF00D66806 /* Build configuration list for PBXProject "StomtOSX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A748505E1BF3C8BF00D66806;
+			productRefGroup = A74850691BF3C8BF00D66806 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A74850671BF3C8BF00D66806 /* StomtOSX */,
+				A74850711BF3C8BF00D66806 /* StomtOSXTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A74850661BF3C8BF00D66806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74850701BF3C8BF00D66806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A74850631BF3C8BF00D66806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74850A01BF3C91C00D66806 /* STImageView.m in Sources */,
+				A74850AA1BF3C92200D66806 /* STUser.m in Sources */,
+				A748509A1BF3C91C00D66806 /* STCategory.m in Sources */,
+				A74850981BF3C91C00D66806 /* STStats.m in Sources */,
+				A74850881BF3C8E400D66806 /* HTTPResponseChecker.m in Sources */,
+				A74850C31BF3C96600D66806 /* Stomt.m in Sources */,
+				A74850B01BF3C92200D66806 /* STFeed.m in Sources */,
+				A74850AC1BF3C92200D66806 /* STObject.m in Sources */,
+				A748509C1BF3C91C00D66806 /* STImage.m in Sources */,
+				A74850AD1BF3C92200D66806 /* STTarget.m in Sources */,
+				A74850B51BF3C93800D66806 /* StomtRequest.m in Sources */,
+				A748509E1BF3C91C00D66806 /* STSearchFilterKeywords.m in Sources */,
+				A748508A1BF3C8E400D66806 /* NSDate+ISO8601.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A748506E1BF3C8BF00D66806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74850781BF3C8BF00D66806 /* StomtOSXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A74850751BF3C8BF00D66806 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A74850671BF3C8BF00D66806 /* StomtOSX */;
+			targetProxy = A74850741BF3C8BF00D66806 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A748507A1BF3C8BF00D66806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = Modules/module.modulemap;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-v";
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A748507B1BF3C8BF00D66806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = Modules/module.modulemap;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-v";
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A748507D1BF3C8BF00D66806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = StomtOSX/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = Modules/module.modulemap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.h3xept.StomtOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A748507E1BF3C8BF00D66806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = StomtOSX/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = Modules/module.modulemap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.h3xept.StomtOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A74850801BF3C8BF00D66806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StomtOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.h3xept.StomtOSXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A74850811BF3C8BF00D66806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StomtOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.h3xept.StomtOSXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A74850621BF3C8BF00D66806 /* Build configuration list for PBXProject "StomtOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A748507A1BF3C8BF00D66806 /* Debug */,
+				A748507B1BF3C8BF00D66806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A748507C1BF3C8BF00D66806 /* Build configuration list for PBXNativeTarget "StomtOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A748507D1BF3C8BF00D66806 /* Debug */,
+				A748507E1BF3C8BF00D66806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A748507F1BF3C8BF00D66806 /* Build configuration list for PBXNativeTarget "StomtOSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A74850801BF3C8BF00D66806 /* Debug */,
+				A74850811BF3C8BF00D66806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A748505F1BF3C8BF00D66806 /* Project object */;
+}
