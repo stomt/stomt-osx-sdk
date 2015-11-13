@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <AppKit/AppKit.h>
+#import "strings.h"
 #import "block_declarations.h"
 #import "StomtRequest.h"
 #import "STUser.h"

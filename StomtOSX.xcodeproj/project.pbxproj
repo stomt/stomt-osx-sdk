@@ -13,31 +13,31 @@
 		A74850881BF3C8E400D66806 /* HTTPResponseChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = A74850841BF3C8E400D66806 /* HTTPResponseChecker.m */; };
 		A74850891BF3C8E400D66806 /* NSDate+ISO8601.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850851BF3C8E400D66806 /* NSDate+ISO8601.h */; };
 		A748508A1BF3C8E400D66806 /* NSDate+ISO8601.m in Sources */ = {isa = PBXBuildFile; fileRef = A74850861BF3C8E400D66806 /* NSDate+ISO8601.m */; };
-		A74850971BF3C91C00D66806 /* STStats.h in Headers */ = {isa = PBXBuildFile; fileRef = A748508D1BF3C91C00D66806 /* STStats.h */; };
+		A74850971BF3C91C00D66806 /* STStats.h in Headers */ = {isa = PBXBuildFile; fileRef = A748508D1BF3C91C00D66806 /* STStats.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A74850981BF3C91C00D66806 /* STStats.m in Sources */ = {isa = PBXBuildFile; fileRef = A748508E1BF3C91C00D66806 /* STStats.m */; };
-		A74850991BF3C91C00D66806 /* STCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = A748508F1BF3C91C00D66806 /* STCategory.h */; };
+		A74850991BF3C91C00D66806 /* STCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = A748508F1BF3C91C00D66806 /* STCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A748509A1BF3C91C00D66806 /* STCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A74850901BF3C91C00D66806 /* STCategory.m */; };
-		A748509B1BF3C91C00D66806 /* STImage.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850911BF3C91C00D66806 /* STImage.h */; };
+		A748509B1BF3C91C00D66806 /* STImage.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850911BF3C91C00D66806 /* STImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A748509C1BF3C91C00D66806 /* STImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A74850921BF3C91C00D66806 /* STImage.m */; };
-		A748509D1BF3C91C00D66806 /* STSearchFilterKeywords.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850931BF3C91C00D66806 /* STSearchFilterKeywords.h */; };
+		A748509D1BF3C91C00D66806 /* STSearchFilterKeywords.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850931BF3C91C00D66806 /* STSearchFilterKeywords.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A748509E1BF3C91C00D66806 /* STSearchFilterKeywords.m in Sources */ = {isa = PBXBuildFile; fileRef = A74850941BF3C91C00D66806 /* STSearchFilterKeywords.m */; };
-		A748509F1BF3C91C00D66806 /* STImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850951BF3C91C00D66806 /* STImageView.h */; };
+		A748509F1BF3C91C00D66806 /* STImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850951BF3C91C00D66806 /* STImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A74850A01BF3C91C00D66806 /* STImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A74850961BF3C91C00D66806 /* STImageView.m */; };
-		A74850A91BF3C92200D66806 /* STUser.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850A11BF3C92200D66806 /* STUser.h */; };
+		A74850A91BF3C92200D66806 /* STUser.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850A11BF3C92200D66806 /* STUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A74850AA1BF3C92200D66806 /* STUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A74850A21BF3C92200D66806 /* STUser.m */; };
-		A74850AB1BF3C92200D66806 /* STObject.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850A31BF3C92200D66806 /* STObject.h */; };
+		A74850AB1BF3C92200D66806 /* STObject.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850A31BF3C92200D66806 /* STObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A74850AC1BF3C92200D66806 /* STObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A74850A41BF3C92200D66806 /* STObject.m */; };
 		A74850AD1BF3C92200D66806 /* STTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = A74850A51BF3C92200D66806 /* STTarget.m */; };
-		A74850AE1BF3C92200D66806 /* STTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850A61BF3C92200D66806 /* STTarget.h */; };
-		A74850AF1BF3C92200D66806 /* STFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850A71BF3C92200D66806 /* STFeed.h */; };
+		A74850AE1BF3C92200D66806 /* STTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850A61BF3C92200D66806 /* STTarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A74850AF1BF3C92200D66806 /* STFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850A71BF3C92200D66806 /* STFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A74850B01BF3C92200D66806 /* STFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = A74850A81BF3C92200D66806 /* STFeed.m */; };
-		A74850B41BF3C93800D66806 /* StomtRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850B21BF3C93800D66806 /* StomtRequest.h */; };
+		A74850B41BF3C93800D66806 /* StomtRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850B21BF3C93800D66806 /* StomtRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A74850B51BF3C93800D66806 /* StomtRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A74850B31BF3C93800D66806 /* StomtRequest.m */; };
 		A74850BB1BF3C94700D66806 /* dbg.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850B71BF3C94700D66806 /* dbg.h */; };
-		A74850BC1BF3C94700D66806 /* declarations.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850B81BF3C94700D66806 /* declarations.h */; };
-		A74850BD1BF3C94700D66806 /* block_declarations.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850B91BF3C94700D66806 /* block_declarations.h */; };
+		A74850BC1BF3C94700D66806 /* declarations.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850B81BF3C94700D66806 /* declarations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A74850BD1BF3C94700D66806 /* block_declarations.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850B91BF3C94700D66806 /* block_declarations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A74850BE1BF3C94700D66806 /* strings.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850BA1BF3C94700D66806 /* strings.h */; };
-		A74850C21BF3C96600D66806 /* Stomt.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850C01BF3C96600D66806 /* Stomt.h */; };
+		A74850C21BF3C96600D66806 /* Stomt.h in Headers */ = {isa = PBXBuildFile; fileRef = A74850C01BF3C96600D66806 /* Stomt.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A74850C31BF3C96600D66806 /* Stomt.m in Sources */ = {isa = PBXBuildFile; fileRef = A74850C11BF3C96600D66806 /* Stomt.m */; };
 /* End PBXBuildFile section */
 
@@ -233,18 +233,18 @@
 				A74850A91BF3C92200D66806 /* STUser.h in Headers */,
 				A748509F1BF3C91C00D66806 /* STImageView.h in Headers */,
 				A74850AB1BF3C92200D66806 /* STObject.h in Headers */,
+				A74850AF1BF3C92200D66806 /* STFeed.h in Headers */,
+				A74850971BF3C91C00D66806 /* STStats.h in Headers */,
+				A74850B41BF3C93800D66806 /* StomtRequest.h in Headers */,
+				A74850BC1BF3C94700D66806 /* declarations.h in Headers */,
+				A74850BD1BF3C94700D66806 /* block_declarations.h in Headers */,
+				A748509B1BF3C91C00D66806 /* STImage.h in Headers */,
+				A74850991BF3C91C00D66806 /* STCategory.h in Headers */,
 				A748509D1BF3C91C00D66806 /* STSearchFilterKeywords.h in Headers */,
 				A74850C21BF3C96600D66806 /* Stomt.h in Headers */,
-				A74850AF1BF3C92200D66806 /* STFeed.h in Headers */,
 				A74850891BF3C8E400D66806 /* NSDate+ISO8601.h in Headers */,
-				A74850971BF3C91C00D66806 /* STStats.h in Headers */,
-				A74850BC1BF3C94700D66806 /* declarations.h in Headers */,
-				A74850B41BF3C93800D66806 /* StomtRequest.h in Headers */,
 				A74850BE1BF3C94700D66806 /* strings.h in Headers */,
-				A748509B1BF3C91C00D66806 /* STImage.h in Headers */,
-				A74850BD1BF3C94700D66806 /* block_declarations.h in Headers */,
 				A74850871BF3C8E400D66806 /* HTTPResponseChecker.h in Headers */,
-				A74850991BF3C91C00D66806 /* STCategory.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,9 +12,10 @@
 #import "dbg.h"
 #import "StomtRequest.h"
 #import "declarations.h"
-#import "strings.h"
 #import "STTarget.h"
 #import "STUser.h"
+
+NSString* kAPIURL;
 
 @interface Stomt ()
 - (void)setup;
@@ -40,6 +41,7 @@
 - (void)setup
 {
 	kAPIURL = @"https://rest.stomt.com";
+	NSLog(@"%@",kAPIURL);
 }
 
 + (void)setAppID:(NSString *)appid

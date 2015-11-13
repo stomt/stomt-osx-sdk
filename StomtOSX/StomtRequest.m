@@ -18,7 +18,6 @@
 #import "STFeed.h"
 #import <CoreLocation/CLLocation.h>
 #import "HTTPResponseChecker.h"
-#import "strings.h"
 #import "dbg.h"
 
 
@@ -352,18 +351,20 @@ error:
 		{
 			if([HTTPResponseChecker checkResponseCode:response] == OK)
 			{
-				_info("Stomt sent.");
-				NSError *jsonError;
-				NSDictionary* dataDict = [NSJSONSerialization JSONObjectWithData:data options:0 error:&jsonError];
-				if(jsonError){NSLog(@"Error in json serializing. %@",jsonError); return;}
-				
-				if(![Stomt sharedInstance].accessToken && ![Stomt sharedInstance].refreshToken)
+				if(data)
 				{
-					[Stomt sharedInstance].accessToken = [dataDict objectForKey:kD_AccessToken];
-					[Stomt sharedInstance].refreshToken = [dataDict objectForKey:kD_RefreshToken];
-				}
-				if(completion) completion(connectionError,[STObject objectWithDataDictionary:dataDict]);
+					_info("Stomt sent.");
+					NSError *jsonError;
+					NSDictionary* dataDict = [NSJSONSerialization JSONObjectWithData:data options:0 error:&jsonError];
+					if(jsonError){NSLog(@"Error in json serializing. %@",jsonError); return;}
 				
+					if(![Stomt sharedInstance].accessToken && ![Stomt sharedInstance].refreshToken)
+					{
+						[Stomt sharedInstance].accessToken = [dataDict objectForKey:kD_AccessToken];
+						[Stomt sharedInstance].refreshToken = [dataDict objectForKey:kD_RefreshToken];
+					}
+					if(completion) completion(connectionError,[STObject objectWithDataDictionary:dataDict]);
+				}
 			}
 			else if([HTTPResponseChecker checkResponseCode:response] == OLD_TOKEN)
 			{

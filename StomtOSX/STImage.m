@@ -9,7 +9,6 @@
 #import "STImage.h"
 #import "Stomt.h"
 #import "dbg.h"
-#import "strings.h"
 
 @interface STImage ()
 
